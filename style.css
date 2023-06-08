@@ -112,3 +112,13 @@ input::placeholder{
     top:76%;
     left:50%;
 }
+
+#video{
+    display: inline;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    top: 30%;
+    left: 50%;
+}
