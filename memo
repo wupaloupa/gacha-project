@@ -1,0 +1,34 @@
+    <!-- <py-script>
+        input_text = Element("input_text")
+        output_text = Element("output_text")
+        def function_add_text(*args):
+            output_text.element.innerText = input_text.value
+            input_text.clear()
+    </py-script> -->
+
+
+    #multiply3box{
+    top: 70%;
+    left: 38%;
+    background-color: #3dcc2d;
+}
+#multiply5box{
+    top: 70%;
+    left: 50%;
+    background-color: #2d42cc;
+}
+#multiply10box{
+    top: 70%;
+    left: 62%;
+    background-color: #c12dcc;
+}
+#multiply20box{
+    top: 70%;
+    left: 74%;
+    background-color: #cc2d2d;
+}
+#startbutton{
+    top: 70%;
+    left: 86%;
+    background-color: #aafd10;
+}

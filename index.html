@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <py-script src="./script.py"></py-script>
+    <!-- 2배박스 -->
+    <div class="blocks" id="multiply2box">
+        <span>x2</span>
+        <input id="multiply2" type="text" placeholder="숫자를 입력하세요">
+    </div>
+
+    <!-- 3배박스 -->
+    <div class="blocks" id="multiply3box">
+        <span>x3</span>
+        <input id="multiply3" type="text" placeholder="숫자를 입력하세요">
+    </div>
+
+    <!-- 5배박스 -->
+    <div class="blocks" id="multiply5box">
+        <span>x5</span>
+        <input id="multiply5" type="text" placeholder="숫자를 입력하세요">
+    </div>
+
+    <!-- 10배박스 -->
+    <div class="blocks" id="multiply10box">
+        <span>x10</span>
+        <input id="multiply10" type="text" placeholder="숫자를 입력하세요">
+    </div>
+
+    <!-- 20배박스 -->
+    <div class="blocks" id="multiply20box">
+        <span>x20</span>
+        <input id="multiply20" type="text" placeholder="숫자를 입력하세요">
+    </div>
+
+
+    <button id="startbutton" class="blocks" pys-onClick ="gamestart">Start</button>
+    <script>
+      window.document.oncontextmenu = new Function("return false"); // 우클릭 방지
+      window.document.onselectstart = new Function("return false"); // 드래그 방지
+      window.document.ondragstart = new Function("return false"); // 이미지 드래그 방지
+      
+      document.getElementById('multiply2').addEventListener('input', function(event) {
+        const inputValue = this.value;
+        const filteredValue = inputValue.replace(/[^0-9]/g, '');
+        if (filteredValue !== inputValue) {
+          this.value = filteredValue;
+        }
+      });
+      document.getElementById('multiply3').addEventListener('input', function(event) {
+        const inputValue = this.value;
+        const filteredValue = inputValue.replace(/[^0-9]/g, '');
+        if (filteredValue !== inputValue) {
+          this.value = filteredValue;
+        }
+      });
+      document.getElementById('multiply5').addEventListener('input', function(event) {
+        const inputValue = this.value;
+        const filteredValue = inputValue.replace(/[^0-9]/g, '');
+        if (filteredValue !== inputValue) {
+          this.value = filteredValue;
+        }
+      });
+      document.getElementById('multiply10').addEventListener('input', function(event) {
+        const inputValue = this.value;
+        const filteredValue = inputValue.replace(/[^0-9]/g, '');
+        if (filteredValue !== inputValue) {
+          this.value = filteredValue;
+        }
+      });
+      document.getElementById('multiply20').addEventListener('input', function(event) {
+        const inputValue = this.value;
+        const filteredValue = inputValue.replace(/[^0-9]/g, '');
+        if (filteredValue !== inputValue) {
+          this.value = filteredValue;
+        }
+      });
+    </script>
+    
+
+    <div id="score" class="blocks">현재점수:100</div>
+    <div id="log" class="blocks"></div>
+    
+</body>
+</html>

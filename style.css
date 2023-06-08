@@ -1,0 +1,114 @@
+.blocks{
+    display: inline;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+input::placeholder{
+    color: black;
+    transform: translate(9%, 0%);
+}
+
+/* 2배 박스 */
+#multiply2box{
+    top: 70%;
+    left: 20%;
+}
+#multiply2box span{
+    background-color: #c7c930;
+    padding: 10px;
+    height: 100%;
+}
+#multiply2{
+    background-color: #c7c930;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* 3배 박스 */
+#multiply3box{
+    top: 70%;
+    left: 35%;
+}
+#multiply3box span{
+    background-color: #3dcc2d;
+    padding: 10px;
+    height: 100%;
+}
+#multiply3{
+    background-color: #3dcc2d;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* 5배 박스 */
+#multiply5box{
+    top: 70%;
+    left: 50%;
+}
+#multiply5box span{
+    background-color: #4b5cc9;
+    padding: 10px;
+    height: 100%;
+}
+#multiply5{
+    background-color: #4b5cc9;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* 10배 박스 */
+#multiply10box{
+    top: 70%;
+    left: 65%;
+}
+#multiply10box span{
+    background-color: #c12dcc;
+    padding: 10px;
+    height: 100%;
+}
+#multiply10{
+    background-color: #c12dcc;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* 20배 박스 */
+#multiply20box{
+    top: 70%;
+    left: 81%;
+}
+#multiply20box span{
+    background-color: #cc2d2d;
+    padding: 10px;
+    height: 100%;
+}
+#multiply20{
+    background-color: #cc2d2d;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* 시작버튼 */
+#startbutton{
+    top: 85%;
+    left: 50%;
+    background-color: #aafd10;
+    padding: 27px 60px;
+    font-size: 30px;
+}
+
+#score{
+    top: 85%;
+    left: 30%;
+    font-size: 30px;
+}
+
+#log{
+    top:76%;
+    left:50%;
+}
